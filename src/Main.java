@@ -21,5 +21,20 @@ public class Main {
                 }
             }
         }
+        System.out.println();
+        System.out.println("Задание 3");
+        int capacity= 102;
+        int sit=60;
+        int people=102;
+
+        if (people<sit) {
+            System.out.println("в вагоне есть сидячие и стоячие места");
+        } else {
+            if (people >= sit && people < capacity) {
+                System.out.println("в вагоне есть только стоячие места");
+            } else {
+                System.out.println("в вагоне нет мест");
+            }
+        }
     }
 }
