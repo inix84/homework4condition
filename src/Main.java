@@ -1,14 +1,22 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
-        int age=66;
+        int age=19;
         if (age>=18) {
-            System.out.println("Поздравляем, вы уже совершеннолетний, и возможно уже давно!");
+            System.out.println("Поздравляем, это совершеннолетие!");
         } else {
             System.out.println("Возраст совершеннолетия ещё не наступил, и нужно немного подождать!");
         }
         System.out.println();
         System.out.println("Задание 2");
-
+        if (age>=7 && age<18) {
+            System.out.println("ребенок ходит в школу!");
+        }
+        if (age>=18 && age<24) {
+            System.out.println("человек уже закончил школу и может отправляться в университет");
+        }
+        if (age>=24) {
+            System.out.println("человек окончил университет и ему пора искать первую работу");
+        }
     }
 }
