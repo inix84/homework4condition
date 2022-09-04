@@ -31,6 +31,32 @@ public class Main {
                 }
             }
 
+        System.out.println();
+        System.out.println("Задание 3");
+        int one = 3;
+        int two = 55;
+        int free =1;
+        int big;
+        if (one>two) {
+            big=one;
+        } else {
+            big=two;
+        }
+
+        if (big<free) {
+            big=free;
+        }
+        System.out.println("БОльшим числом является число "+ big);
+
+        System.out.println("Как узнать какое это было число изначальное, первое, второе или третье?");
+
+        if (big==one) {System.out.println("БОольшим является первое число");
+            }  else {if (big==two) {System.out.println("БОольшим является второе число");
+        }  else {System.out.println("БОольшим является третье число");
+            }
+        }
+
+
         }
 
     }
